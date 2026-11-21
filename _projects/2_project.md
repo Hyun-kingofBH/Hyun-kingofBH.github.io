@@ -5,6 +5,7 @@ description: "Modeling high-redshift MBH binaries, potential dual AGN, and tripl
 img: assets/img/LUMINA/LUMINA_thumbnail.png
 importance: 2
 category: work
+show_on_research: true
 ---
 
 Since February 2026, I have been studying the populations of potential dual AGN and massive black hole (MBH) pairs detectable by LISA at high redshift ($3 \gtrsim z \lesssim 7$). Using LUMINA’s large volume, I also extended the analysis beyond binaries to study higher-order systems including MBH triplets. I work with Dr. Oliver Zier, PI of the LUMINA simulation, and Dr. Jacob Shen at the Harvard Center for Astrophysics.
