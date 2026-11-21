@@ -1,172 +1,105 @@
 cv:
-  name: Hyun Song
-  headline: B.S. Candidate in Physics and Astronomy
-  email: thdgus0911@gmail.com
-  location: Seoul, Republic of Korea
+  name: "Hyun Song"
+  headline: "B.S. Candidate in Physics and Astronomy"
+  email: "thdgus0911@gmail.com"
+  location: "Seoul, Republic of Korea"
 
   sections:
-    Research Interests:
+    "Research Interests":
       - bullet: "I am interested in modeling extreme phenomena near black holes, including relativistic accretion flows and black hole inspirals."
 
-    Education:
-      - institution: Seoul National University
-        area: Physics and Astronomy
-        degree: B.S. Candidate, double major (expected 2027)
-        start_date: 2020
-        end_date: 2027
-        location: Seoul, Korea
+    "Education":
+      - institution: "Seoul National University"
+        area: "Physics and Astronomy"
+        degree: "B.S. Candidate, double major (expected 2027)"
+        start_date: "2020"
+        end_date: "2027"
+        location: "Seoul, Korea"
 
-      - institution: University of Texas at Austin
-        area: Astronomy
-        degree: Exchange Program
-        start_date: 2025
-        end_date: 2025
-        location: Austin, Texas
+      - institution: "University of Texas at Austin"
+        area: "Astronomy"
+        degree: "Exchange Program"
+        date: "2025"
+        location: "Austin, Texas"
         highlights:
           - "Selected coursework: General Relativity (A), Cosmology (A), Astrophysics (A)"
           - "Exchange semester followed by a summer research assistantship."
 
-    Publications:
-      - bullet: Song, H., Jeon, J., Taylor, A., & Bromm, V. “Observing the First Supermassive Black Holes with JWST.” In preparation.
-      - bullet: Song, H., Zier, O., Shen, X., Riu, R., et al. “Evolution of Massive Black Holes and the Formation of Multiple MBH Systems during Hierarchical Galaxy Assembly in the LUMINA Simulation.” In preparation.
+    "Selected Publications":
+      - label: "Observing the First Supermassive Black Holes with JWST"
+        details: "Song, H., Jeon, J., Taylor, A., & Bromm, V. In preparation."
 
-    Research Experience:
-      - company: Seoul National University
-        position: Student Directed Research Project, Ray Tracing Framework for Schwarzschild and Kerr Metrics
-        date: Jun. 2026–present
-        highlights:
-          - Secured approximately $2,000 in funding for a project I proposed.
-          - Implemented a parallelized C++ Hamiltonian solver for photon geodesics in Kerr spacetime.
-          - Extended the solver to ray trace thin Keplerian disks and generate relativistic images.
-          - Developed a hands on teaching tool to explore how light bending, Doppler shifts, and gravitational redshift shape disk images.
-          - "Advisor: Sascha Trippe"
+      - label: "Evolution of Massive Black Holes and the Formation of Multiple MBH Systems during Hierarchical Galaxy Assembly in the LUMINA Simulation"
+        details: "Song, H., Zier, O., Shen, X., Riu, R., et al. In preparation."
 
-      - company: Center for Astrophysics | Harvard & Smithsonian and MIT
-        position: Self Initiated Research Project, Multiple Massive Black Holes in the LUMINA Cosmological Simulation
-        date: Feb. 2026–present
-        highlights:
-          - Connected LUMINA cosmological merger histories with Holodeck binary evolution models to extend dual AGN forecasts to $z=6.6$ and assess LISA detectability.
-          - Translated these forecasts into survey requirements, estimating that a survey of approximately $300\,\mathrm{arcmin}^2$ at $3<z\lesssim6$ could detect at least 10 potential dual AGNs with greater than 90% probability.
-          - Studied the potential importance of MBH triplets for SMBH growth and demographics, estimating that approximately 20% of galaxies undergoing multiple mergers may temporarily host one.
-          - "Advisors: Oliver Zier, LUMINA PI; Jacob Shen"
+    "Research Experience":
+      - label: "Student Directed Research Project, Ray Tracing Framework for Schwarzschild and Kerr Metrics"
+        details: "Seoul National University | Jun. 2026–present. Secured approximately $2,000 in funding for a project I proposed; implemented a parallelized C++ Hamiltonian solver for photon geodesics in Kerr spacetime; extended the solver to ray trace thin Keplerian disks and generate relativistic images; developed a hands-on teaching tool to explore how light bending, Doppler shifts, and gravitational redshift shape disk images. Advisor: Sascha Trippe."
 
-      - company: University of Texas at Austin
-        position: Research Assistant, JWST Observability of SMBHs Across Seeding and Growth Scenarios
-        date: Feb. 2025–Feb. 2026
-        highlights:
-          - Integrated SMBH seeding and growth prescriptions to evaluate their photometric detectability with JWST.
-          - Evaluated high ionization line diagnostics using mock spectra where Balmer lines are inaccessible.
-          - Projected that JWST could detect and identify SMBHs out to $z\sim16$ under optimistic assumptions.
-          - "Advisor: Volker Bromm"
+      - label: "Self-Initiated Research Project, Multiple Massive Black Holes in the LUMINA Cosmological Simulation"
+        details: "Center for Astrophysics | Harvard & Smithsonian and MIT | Feb. 2026–present. Connected LUMINA cosmological merger histories with Holodeck binary evolution models to extend dual AGN forecasts to $z=6.6$ and assess LISA detectability; translated these forecasts into survey requirements, estimating that a survey of approximately $300\\,\\mathrm{arcmin}^2$ at $3<z\\lesssim6$ could detect at least 10 potential dual AGNs with greater than 90% probability; studied the potential importance of MBH triplets for SMBH growth and demographics, estimating that approximately 20% of galaxies undergoing multiple mergers may temporarily host one. Advisors: Oliver Zier, LUMINA PI; Jacob Shen."
 
-      - company: Seoul National University
-        position: "Undergraduate Research Intern, AGN Activity and Star Formation: SED Analysis of Type 1 AGNs"
-        date: Dec. 2023–Dec. 2024
-        highlights:
-          - Estimated SFRs of Type 1 AGN host galaxies by fitting their multiwavelength SEDs with CIGALE, using SDSS spectra and catalog photometry.
-          - Tested how missing FIR data affected SFR estimates by comparing fits with and without FIR photometry, extending the analysis to hosts without FIR measurements.
-          - Found a weak positive correlation between AGN activity and host galaxy SFR, with no evidence of SFR suppression in the sample.
-          - "Advisor: Jong-Hak Woo"
+      - label: "Research Assistant, JWST Observability of SMBHs Across Seeding and Growth Scenarios"
+        details: "University of Texas at Austin | Feb. 2025–Feb. 2026. Integrated SMBH seeding and growth prescriptions to evaluate their photometric detectability with JWST; evaluated high-ionization line diagnostics using mock spectra where Balmer lines are inaccessible; projected that JWST could detect and identify SMBHs out to $z\\sim16$ under optimistic assumptions. Advisor: Volker Bromm."
 
-    Selected Scientific Talks:
-      - name: SMBH and Blue Notes Conference
-        date: Jun. 2026
-        location: Montreal, Canada
+      - label: "Undergraduate Research Intern, AGN Activity and Star Formation: SED Analysis of Type 1 AGNs"
+        details: "Seoul National University | Dec. 2023–Dec. 2024. Estimated SFRs of Type 1 AGN host galaxies by fitting their multiwavelength SEDs with CIGALE, using SDSS spectra and catalog photometry; tested how missing FIR data affected SFR estimates by comparing fits with and without FIR photometry, extending the analysis to hosts without FIR measurements; found a weak positive correlation between AGN activity and host galaxy SFR, with no evidence of SFR suppression in the sample. Advisor: Jong-Hak Woo."
 
-      - name: Professor Hernquist’s Group Meeting, Center for Astrophysics | Harvard & Smithsonian
-        date: Feb. 2026
-        location: Boston, Massachusetts
+    "Selected Scientific Talks":
+      - label: "SMBH and Blue Notes Conference"
+        details: "Jun. 2026 | Montreal, Canada"
 
-      - name: Korean Astronomical Society Fall Meeting
-        date: Oct. 2025
-        location: Jeju, Republic of Korea
+      - label: "Professor Hernquist’s Group Meeting, Center for Astrophysics | Harvard & Smithsonian"
+        details: "Feb. 2026 | Boston, Massachusetts"
 
-      - name: U.S.–Korea Conference
-        date: Aug. 2025
-        location: Atlanta, Georgia
+      - label: "Korean Astronomical Society Fall Meeting"
+        details: "Oct. 2025 | Jeju, Republic of Korea"
 
-    Selected Posters:
-      - name: Numerical Relativity and Gravitational Wave Summer School
-        date: Jul. 2026
-        location: Daejeon, Republic of Korea
+      - label: "U.S.–Korea Conference"
+        details: "Aug. 2025 | Atlanta, Georgia"
 
-      - name: Cosmic Frontier Center Conference
-        date: May 2025
-        location: Austin, Texas
+    "Selected Posters":
+      - label: "Numerical Relativity and Gravitational Wave Summer School"
+        details: "Jul. 2026 | Daejeon, Republic of Korea"
 
-      - name: Korean Space Science Society Fall Meeting
-        date: Oct. 2024
-        location: Sacheon, Republic of Korea
-        highlights:
-          - Outstanding Presentation Award
+      - label: "Cosmic Frontier Center Conference"
+        details: "May 2025 | Austin, Texas"
 
-    Selected Outreach Talks:
-      - name: Seongdong High School Career Mentoring Event
-        date: Oct. 2026
+      - label: "Korean Space Science Society Fall Meeting"
+        details: "Oct. 2024 | Sacheon, Republic of Korea | Outstanding Presentation Award"
 
-      - name: Seoul National University Open Astronomy Nights
-        date: May and Sep. 2026
+    "Selected Outreach Talks":
+      - label: "Seongdong High School Career Mentoring Event"
+        details: "Oct. 2026"
 
-    Teaching and Academic Service:
-      - company: Korea Astronomy Olympiad, Korean Astronomical Society
-        position: Instructor and Teaching Assistant for National Team Training
-        date: Apr. 2026–present
-        highlights:
-          - Train the Korean national team for the International Olympiad on Astronomy and Astrophysics.
-          - Develop theoretical and data analysis problems, including four long form problems for four hour sessions and three medium length problems designed for 10–30 minutes each.
-          - Organized two national team training camps, coordinating schedules and instruction.
+      - label: "Seoul National University Open Astronomy Nights"
+        details: "May and Sep. 2026"
 
-      - company: Seoul National University and Korea Advanced Institute of Science and Technology
-        position: Core Member, Astronomy Student Led Journal Club
-        date: Sep. 2025–present
-        highlights:
-          - Co lead a weekly journal club for two undergraduate and five graduate students.
-          - Presented in depth 1.5 hour reviews and led discussions of seven research papers.
+    "Teaching and Academic Service":
+      - label: "Instructor and Teaching Assistant for National Team Training"
+        details: "Korea Astronomy Olympiad, Korean Astronomical Society | Apr. 2026–present. Train the Korean national team for the International Olympiad on Astronomy and Astrophysics; develop theoretical and data-analysis problems, including four long-form problems for four-hour sessions and three medium-form problems designed for 10–30 minutes each; organized two national team training camps, coordinating schedules and instruction."
 
-      - company: Seoul National University
-        position: Peer Tutor, Calculus I and General Physics I–II
-        date: 2024–2026, four semesters
-        highlights:
-          - Led 2.5 hours per week of supplemental lectures and problem solving sessions for groups of two to six undergraduates each semester.
-          - Provided bilingual tutoring to a student with prior education abroad in General Physics I in 2026.
-          - Received Best Tutor awards in Calculus I and General Physics I in Spring 2026.
+      - label: "Core Member, Astronomy Student-Led Journal Club"
+        details: "Seoul National University and Korea Advanced Institute of Science and Technology | Sep. 2025–present. Co-lead a weekly journal club for two undergraduate and five graduate students; presented in-depth 1.5-hour reviews and led discussions of seven research papers."
 
-      - company: Korean Mathematical Society and Korean Astronomical Society
-        position: Mentor, Career Mentoring Program Led by Former National Olympiad Representatives
-        date: 2023
-        highlights:
-          - Guided three high school students from rural areas in an exoplanet analysis project using Kepler transit data.
-          - Delivered five one hour introductory astronomy lectures.
-          - Led the team to First Prize in the Astronomy Division.
+      - label: "Peer Tutor, Calculus I and General Physics I–II"
+        details: "Seoul National University | 2024–2026, four semesters. Led 2.5 hours per week of supplemental lectures and problem-solving sessions for groups of two to six undergraduates each semester; provided bilingual tutoring to a student with prior education abroad in General Physics I in 2026; received Best Tutor awards in Calculus I and General Physics I in Spring 2026."
 
-      - company: Seoul National University Social Responsibility
-        position: Volunteer and Camp Organizer, SHANUM Community Service
-        date: 2023
-        highlights:
-          - Contributed more than 100 volunteer hours to programs serving migrant youth, children, and workers.
-          - Organized educational camps and community festival booths for youth from migrant backgrounds.
+      - label: "Mentor, Career Mentoring Program Led by Former National Olympiad Representatives"
+        details: "Korean Mathematical Society and Korean Astronomical Society | 2023. Guided three high school students from rural areas in an exoplanet analysis project using Kepler transit data; delivered five one-hour introductory astronomy lectures; led the team to First Prize in the Astronomy Division."
 
-    Honors and Funding:
-      - name: Presidential Science Scholarship
-        date: 2020–2025
-        summary: Ministry of Science and ICT, Republic of Korea
-        highlights:
-          - Full tuition and an annual academic stipend of approximately $3,800 for four academic years.
+      - label: "Volunteer and Camp Organizer, SHANUM Community Service"
+        details: "Seoul National University Social Responsibility | 2023. Contributed more than 100 volunteer hours to programs serving migrant youth, children, and workers; organized educational camps and community festival booths for youth from migrant backgrounds."
 
-      - name: KorUS Educational Exchange Initiative for Youth in STEM
-        date: 2025
-        summary: Ministry of Trade, Industry and Energy, Republic of Korea; Korea Institute for Advancement of Technology
-        highlights:
-          - Selected for an approximately $8,000 scholarship supporting STEM exchange study.
+    "Honors and Funding":
+      - label: "Presidential Science Scholarship"
+        details: "Ministry of Science and ICT, Republic of Korea | 2020–2025. Full tuition and an annual academic stipend of approximately $3,800 for four academic years."
 
-      - name: "Student Directed Education: Research Support Program"
-        date: Jun. 2026–present
-        summary: Seoul National University
-        highlights:
-          - Independent research proposal selected for approximately $2,000 in funding.
+      - label: "KorUS Educational Exchange Initiative for Youth in STEM"
+        details: "Ministry of Trade, Industry and Energy, Republic of Korea; Korea Institute for Advancement of Technology | 2025. Selected for an approximately $8,000 scholarship supporting STEM exchange study."
 
-      - name: National Representative, Asian Pacific Astronomy Olympiad
-        date: 2019
-        summary: Korea Astronomy Olympiad
-        highlights:
-          - Selected as one of 11 students nationwide through a year long training and selection process.
+      - label: "Student Directed Education: Research Support Program"
+        details: "Seoul National University | Jun. 2026–present. Independent research proposal selected for approximately $2,000 in funding."
+
+      - label: "National Representative, Asian Pacific Astronomy Olympiad"
+        details: "Korea Astronomy Olympiad | 2019. Selected as one of 11 students nationwide through a year-long training and selection process."
