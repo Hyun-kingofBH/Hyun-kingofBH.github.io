@@ -1,80 +1,68 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: "AGN Activity vs. SFR of the Host Galaxy: Type 1 AGN at 0.3 < z < 0.8"
+description: "Studying the relationship between AGN activity and host galaxy star formation."
+img:assets/img/AGN_feedback/coevo_thumbnail.jpg
+importance: 4
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+From winter 2023 through winter 2024, I studied the relationship between AGN activity and the star formation rate (SFR) of host galaxies at Seoul National University. This was my first full research experience, and I am grateful to Professor Jong-Hak Woo for giving me this opportunity.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+For galaxies with classical bulges and elliptical galaxies, studies have found correlations between SMBH mass and bulge properties, including bulge mass. Kormendy and Ho (2013) reviewed these relationships. They raise a broader question: how did SMBHs and their host galaxies grow together? I focused on the relationship between AGN activity and star formation in the host galaxies.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid
+       path="assets/img/AGN_feedback/coevo_thumbnail.jpg"
+       title="Illustration of the coevolution of SMBHs and galaxies"
+       class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+  The chicken and egg question in astronomy: Which came first, AGN activity or galaxy growth?
+  Figure from Marta Volonteri, “The Formation and Evolution of Massive Black Holes,”
+  <em>Science</em>, 337, 544–547 (2012).
+  <a href="https://doi.org/10.1126/science.1220843" target="_blank" rel="noopener">
+    DOI: 10.1126/science.1220843
+  </a>
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**AGN sample and activity indicators**
 
-{% raw %}
+I studied about 5,500 Type 1 AGNs at $0.3<z<0.8$ from the SDSS quasar catalog. I used the 5100 Å continuum luminosity and the effective outflow velocity measured from the [O III] &lambda;5007 line in the SDSS spectra as proxies for AGN activity.
 
-```html
+**Estimating host galaxy SFR**
+
+Because AGN emission can contaminate the H$\alpha$ line in Type 1 AGNs, estimating host galaxy SFR from spectroscopy alone is challenging. I used CIGALE to fit the targets’ multiwavelength photometry, from UV to FIR, including data from GALEX, 2MASS, WISE, and IRAS.
+
+Only 136 of the approximately 5,500 AGNs had FIR data. I compared the SFR estimates with and without FIR photometry for those objects. The estimates were broadly consistent, with an RMS difference of 0.32 dex. This comparison allowed me to estimate SFRs for the rest of the sample, which lacked FIR data.
+
+In this sample, I found no strong evidence that AGN activity immediately suppresses star formation in the host galaxies.
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-10 mt-3 mt-md-0">
+    {% include figure.liquid
+       path="assets/img/AGN_feedback/CIGALE.jpg"
+       title="CIGALE SED fits with and without FIR photometry"
+       class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+<div class="caption">
+  CIGALE SED fits without FIR photometry (left) and with FIR photometry (right).
+  I compared the SFR estimates for every object with FIR data and found them broadly
+  consistent, with an RMS difference of 0.32 dex. This allowed me to estimate SFRs
+  for the other AGNs without FIR data.
+</div>
 
-{% endraw %}
+<!-- Add the poster section after permission to share the poster PDF.
+
+This is the poster I presented at the Korean Astronomical Society meeting in 2024.
+
+<a href="{{ '/assets/img/AGN_feedback/POSTER_FILE.pdf' | relative_url }}"
+   target="_blank"
+   rel="noopener">
+  Open the poster PDF
+</a>
+
+-->
