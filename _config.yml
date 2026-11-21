@@ -2,19 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+title: "Hyun Song | Black Hole Astrophysics (the future King of Black Holes)" # the website title (if blank, full name will be used instead)
+first_name: Hyun
+middle_name: ""
+last_name: Song
+contact_note: >-
+  Email: thdgus0911@gmail.com | SNU email: sherlock0911@snu.ac.kr
+
+description: >-
+  Hyun Song studies physics and astronomy at Seoul National University, with interests in black hole astrophysics, relativistic accretion, and black hole inspirals.
+
+footer_text: >-
+  Built with <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener">al-folio</a>. Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
+
+keywords: black hole astrophysics, supermassive black holes, relativistic accretion, black hole inspirals, ray tracing, gravitational waves, cosmological simulations
+
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
