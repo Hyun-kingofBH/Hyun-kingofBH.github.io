@@ -27,7 +27,6 @@ latest_posts:
   enabled: false
   scrollable: true
   limit: 2
-
 ---
 
 <style>
