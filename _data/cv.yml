@@ -1,13 +1,15 @@
 cv:
   name: Hyun Song
-  label: B.S. Candidate in Physics and Astronomy
+  headline: B.S. Candidate in Physics and Astronomy
   email: thdgus0911@gmail.com
-  location: Seoul, Republic of Korea
-  image: ""
-  summary: >-
-    I am interested in modeling extreme phenomena near black holes, including relativistic accretion flows, jets, and black hole inspirals involving companions across a broad range of mass ratios. I hope to connect these models to electromagnetic and gravitational wave signals, as well as population level observables.
+  location: Seoul, Republic of Korea  
 
   sections:
+    Research Interests:
+      - >-
+        I am interested in modeling extreme phenomena near black holes,
+        including relativistic accretion flows and black hole inspirals.
+        
     Education:
       - institution: Seoul National University
         area: Physics and Astronomy
@@ -23,6 +25,7 @@ cv:
         highlights:
           - "Selected coursework: General Relativity (A), Cosmology (A), Astrophysics (A)"
           - "Exchange semester followed by a summer research assistantship."
+      
 
     Publications:
       - bullet: Song, H., Jeon, J., Taylor, A., & Bromm, V. “Observing the First Supermassive Black Holes with JWST.” In preparation.
@@ -37,7 +40,7 @@ cv:
           - Implemented a parallelized C++ Hamiltonian solver for photon geodesics in Kerr spacetime.
           - Extended the solver to ray trace thin Keplerian disks and generate relativistic images.
           - Developed a hands on teaching tool to explore how light bending, Doppler shifts, and gravitational redshift shape disk images.
-          - Advisor: Sascha Trippe
+          - "Advisor: Sascha Trippe"
 
       - company: Center for Astrophysics | Harvard & Smithsonian and MIT
         position: Self Initiated Research Project, Multiple Massive Black Holes in the LUMINA Cosmological Simulation
@@ -46,7 +49,7 @@ cv:
           - Connected LUMINA cosmological merger histories with Holodeck binary evolution models to extend dual AGN forecasts to $z=6.6$ and assess LISA detectability.
           - Translated these forecasts into survey requirements, estimating that a survey of approximately $300\,\mathrm{arcmin}^2$ at $3<z\lesssim6$ could detect at least 10 potential dual AGNs with greater than 90% probability.
           - Studied the potential importance of MBH triplets for SMBH growth and demographics, estimating that approximately 20% of galaxies undergoing multiple mergers may temporarily host one.
-          - Advisors: Oliver Zier, LUMINA PI; Jacob Shen
+          - "Advisors: Oliver Zier, LUMINA PI; Jacob Shen"
 
       - company: University of Texas at Austin
         position: Research Assistant, JWST Observability of SMBHs Across Seeding and Growth Scenarios
@@ -55,7 +58,7 @@ cv:
           - Integrated SMBH seeding and growth prescriptions to evaluate their photometric detectability with JWST.
           - Evaluated high ionization line diagnostics using mock spectra where Balmer lines are inaccessible.
           - Projected that JWST could detect and identify SMBHs out to $z\sim16$ under optimistic assumptions.
-          - Advisor: Volker Bromm
+          - "Advisor: Volker Bromm"
 
       - company: Seoul National University
         position: "Undergraduate Research Intern, AGN Activity and Star Formation: SED Analysis of Type 1 AGNs"
@@ -64,7 +67,7 @@ cv:
           - Estimated SFRs of Type 1 AGN host galaxies by fitting their multiwavelength SEDs with CIGALE, using SDSS spectra and catalog photometry.
           - Tested how missing FIR data affected SFR estimates by comparing fits with and without FIR photometry, extending the analysis to hosts without FIR measurements.
           - Found a weak positive correlation between AGN activity and host galaxy SFR, with no evidence of SFR suppression in the sample.
-          - Advisor: Jong-Hak Woo
+          - "Advisor: Jong-Hak Woo"
 
     Selected Scientific Talks:
       - name: SMBH and Blue Notes Conference
