@@ -13,7 +13,7 @@ profile:
   more_info: >
     <p>Seoul National University</p>
     <p><a href="mailto:thdgus0911@gmail.com">Email</a></p>
-    <p><a href="real_google_url.com">Google Scholar</a></p>
+    <p><a href="Hyun-kingofBH.github.io">Google Scholar</a></p>
 
 selected_papers: false
 social: true
