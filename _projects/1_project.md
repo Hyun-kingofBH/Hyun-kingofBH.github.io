@@ -51,3 +51,5 @@ I wrote the proposal independently and secured an approximately $2,000 research 
 - I integrated rays backward in time with an RK4 integrator and tracked the Hamiltonian, angular momentum, and Carter constant to monitor numerical error.
 - At each disk intersection, I enforced the null condition \(H=0\), rather than estimating the hit by interpolating between neighboring integration steps.
 - I wrote the code in C++ and used OpenMP for CPU parallelization.
+
+The code is here! [repository](https://github.com/Hyun-kingofBH/TheLordofthePhotonRings).
