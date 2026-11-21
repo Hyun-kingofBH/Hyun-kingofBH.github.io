@@ -6,21 +6,21 @@ cv:
 
   sections:
     Research Interests:
-      - >-
-        I am interested in modeling extreme phenomena near black holes,
-        including relativistic accretion flows and black hole inspirals.
+      - bullet: "I am interested in modeling extreme phenomena near black holes, including relativistic accretion flows and black hole inspirals."
 
     Education:
       - institution: Seoul National University
         area: Physics and Astronomy
         degree: B.S. Candidate, double major (expected 2027)
-        date: 2020–2027
+        start_date: 2020
+        end_date: 2027
         location: Seoul, Korea
 
       - institution: University of Texas at Austin
         area: Astronomy
         degree: Exchange Program
-        date: 2025
+        start_date: 2025
+        end_date: 2025
         location: Austin, Texas
         highlights:
           - "Selected coursework: General Relativity (A), Cosmology (A), Astrophysics (A)"
