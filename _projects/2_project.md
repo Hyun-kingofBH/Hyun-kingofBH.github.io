@@ -1,81 +1,59 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: "Multiple Massive Black Hole Systems in the LUMINA"
+description: "Modeling high-redshift MBH binaries, potential dual AGN, and triplets in the LUMINA cosmological simulation."
+img: assets/img/LUMINA/LUMINA_thumbnail.png
 importance: 2
 category: work
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Since February 2026, I have been studying the populations of potential dual AGN and massive black hole (MBH) pairs detectable by LISA at high redshift ($3 \gtrsim z \lesssim 7$). Using LUMINA’s large volume, I also extended the analysis beyond binaries to study higher-order systems including MBH triplets. I work with Dr. Oliver Zier, PI of the LUMINA simulation, and Dr. Jacob Shen at the Harvard Center for Astrophysics.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Galaxy mergers are common over a galaxy's lifetime, and most massive galaxies are thought to host an MBH at their center. What happens to these central MBHs when their host galaxies merge? Do they eventually merge to form a larger MBH, or can they persist as a binary for a long time? These questions have long interested me.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-md-6 mt-3 mt-md-0">
+    <img src="{{ '/assets/img/LUMINA/Bigblackhole.png' | relative_url }}"
+         alt="Illustration of a massive black hole"
+         class="img-fluid rounded z-depth-1"
+         loading="lazy">
+    <div class="caption">
+      Will they merge into a larger SMBH?
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+  <div class="col-md-6 mt-3 mt-md-0">
+    <img src="{{ '/assets/img/LUMINA/MBHB.png' | relative_url }}"
+         alt="Illustration of a massive black hole binary"
+         class="img-fluid rounded z-depth-1"
+         loading="lazy">
+    <div class="caption">
+      Or will they persist as binaries for a long time?
+    </div>
   </div>
 </div>
-```
 
-{% endraw %}
+**How do we study multiple MBH systems?**
+
+- I analyze black hole merger trees to estimate the abundance of MBH binaries.
+- I use Holodeck, a subgrid modeling software, to model unresolved MBH binary inspirals. It includes dynamical friction, stellar loss-cone scattering, viscous hardening by circumbinary disks, and gravitational-wave emission.
+- I connect LUMINA to Holodeck by extracting host-galaxy properties for black holes that have merged in LUMINA and using them as initial conditions for Holodeck.
+- I evolve the binaries with Holodeck to estimate their abundance at different redshifts.
+- I use a fiducial rest-frame UV luminosity as an observability criterion to estimate an optimistic population of potential dual AGN.
+
+**What have we found?**
+
+The poster below presents preliminary results that I shared at the 2026 Summer School of NR and GW in Daejeon, Korea. Some model parameters and the definition of an MBH triplet differ from our current analysis. We aim to submit the paper by January 2027 and will share the final results after submission.
+
+<p>
+  <a href="{{ '/assets/img/LUMINA/Hyun_NRGW2026.pdf' | relative_url }}"
+     target="_blank"
+     rel="noopener">
+    Open the poster PDF in a new tab
+  </a>
+</p>
+
+<iframe src="{{ '/assets/img/LUMINA/Hyun_NRGW2026.pdf' | relative_url }}"
+        title="Preliminary LUMINA research poster"
+        style="width: 100%; height: 850px; border: 0;">
+</iframe>
