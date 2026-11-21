@@ -90,7 +90,7 @@ Outside my academic work, I enjoy backpacking, walking, reading, and all kinds o
   <figure class="col-12 col-md-6 mb-4">
     <a href="{{ '/assets/img/life/climbing.jpg' | relative_url }}"
        data-lightbox="life-gallery"
-       data-title="I enjoy climbing with my friends when the weather is good.">
+       data-title="I enjoy climbing with my friends when the weather is good. This is me when I climbed Namsan mountain, Korea with my beloved Texas cowboy boots ">
       <img src="{{ '/assets/img/life/climbing.jpg' | relative_url }}"
            alt="Climbing with friends"
            style="width: 100%; max-height: 360px; object-fit: contain;"
