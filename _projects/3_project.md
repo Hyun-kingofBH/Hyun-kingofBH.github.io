@@ -5,6 +5,7 @@ description: "Estimating how far JWST can detect and identify growing SMBHs."
 img: assets/img/SMBH_JWST/SMBH_thumbnail.png
 importance: 3
 category: work
+show_on_research: true
 ---
 
 I investigated how far JWST could detect and tentatively identify SMBHs through photometry and spectroscopy. I began this project by asking whether JWST could eventually distinguish light seed and heavy seed models, helping us understand how SMBHs formed. I was fortunate to work with Professor Volker Bromm during my exchange semester at UT Austin in 2025, and I remain grateful for his warm support and academic inspiration. I am also thankful for my wonderful collaborators.
