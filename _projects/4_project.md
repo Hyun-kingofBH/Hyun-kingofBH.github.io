@@ -5,6 +5,7 @@ description: "Studying the relationship between AGN activity and host galaxy sta
 img: assets/img/AGN_feedback/coevo_thumbnail.jpg
 importance: 4
 category: work
+show_on_research: true
 ---
 
 From winter 2023 through winter 2024, I studied the relationship between AGN activity and the star formation rate (SFR) of host galaxies at Seoul National University. This was my first full research experience, and I am grateful to Professor Jong-Hak Woo for giving me this opportunity.
