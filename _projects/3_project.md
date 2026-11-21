@@ -9,7 +9,7 @@ category: work
 
 I investigated how far JWST could detect and tentatively identify SMBHs through photometry and spectroscopy. I began this project by asking whether JWST could eventually distinguish light seed and heavy seed models, helping us understand how SMBHs formed. I was fortunate to work with Professor Volker Bromm during my exchange semester at UT Austin in 2025, and I remain grateful for his warm support and academic inspiration. I am also thankful for my wonderful collaborators.
 
-Observations of quasars powered by SMBHs with masses above $10^7\,M_\odot$ at $z>6$ raise a puzzle: how could black holes that began as small stellar mass seeds grow so rapidly within the first billion years of the Universe? Researchers have also studied heavier seeds, including direct collapse black holes. Yet growth may erase clues to a black hole’s initial seed, making its origin difficult to probe directly. Estimating JWST’s detection limits can help guide strategies for upcoming surveys.
+Observations of quasars powered by SMBHs with masses above $10^7\,M_\odot$ at $z>6$ raise a puzzle: how could black holes that began as small stellar mass seeds grow so rapidly within the first billion years of the Universe? To address this puzzle, alternative heavy seed scenarios have been actively studied including direct collapse black holes. Although these models alleviate the black hole timing mystery, their growth and interaction with their surroundings may erase clues to a black hole’s initial seed, making it difficult to probe directly. Estimating JWST’s detection limits can help guide strategies for upcoming surveys.
 
 **Photometric detectability**
 
