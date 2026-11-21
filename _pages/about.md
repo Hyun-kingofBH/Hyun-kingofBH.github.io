@@ -30,4 +30,38 @@ latest_posts:
 
 ---
 
-I am an undergraduate student in physics and astronomy at Seoul National University. I am interested in theoretical models of extreme phenomena near black holes, including relativistic accretion flows and black hole inspirals across a broad range of mass ratios. I hope to connect these models to observable electromagnetic and gravitational-wave signatures.
+<style>
+.post:has(.about-bio) .profile {
+  width: 36%;
+  max-width: 380px;
+}
+
+.post:has(.about-bio) .profile img {
+  width: 100%;
+  height: auto;
+}
+
+.post:has(.about-bio) .about-bio {
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 576px) {
+  .post:has(.about-bio) .profile {
+    float: none !important;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 1rem;
+  }
+}
+</style>
+
+<div class="about-bio">
+  <p>
+    I am an undergraduate student in physics and astronomy at Seoul National University.
+    I am interested in theoretical models of extreme phenomena near black holes,
+    including relativistic accretion flows and black hole inspirals across a broad
+    range of mass ratios. I hope to connect these models to observable electromagnetic
+    and gravitational wave signatures.
+  </p>
+</div>
