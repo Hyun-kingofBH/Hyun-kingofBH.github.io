@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-nav: true
-nav_order: 1
+nav: false
 
 subtitle: "Undergraduate student in Physics and Astronomy, Seoul National University"
 
