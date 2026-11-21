@@ -7,6 +7,8 @@ importance: 1
 category: work
 ---
 
+I developed a parallelized C++ ray-tracing code under the Schwarzschild and Kerr spacetime. These are the sample images obtained by my code.
+
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     <img src="{{ '/assets/img/research/Sch_BH_disc_Iobs_movie.gif' | relative_url }}"
@@ -46,10 +48,10 @@ I wrote the proposal independently and secured an approximately $2,000 research 
 **To Achieve This**
 
 - I used the Hamiltonian formalism covered in my graduate-level General Relativity course at Seoul National University in Fall 2026.
-- I modeled a geometrically thin, optically thick Keplerian disk extending from the ISCO to an adjustable outer radius, set to 20 \(R_g\).
+- I modeled a geometrically thin, optically thick Keplerian disk extending from the ISCO to an adjustable outer radius, set to 20 $R_g$.
 - I used an observer-frame tetrad to convert intuitive photon directions into the coordinates used for each spacetime.
 - I integrated rays backward in time with an RK4 integrator and tracked the Hamiltonian, angular momentum, and Carter constant to monitor numerical error.
-- At each disk intersection, I enforced the null condition \(H=0\), rather than estimating the hit by interpolating between neighboring integration steps.
+- At each disk intersection, I enforced the null condition $H=0$, rather than estimating the hit by interpolating between neighboring integration steps.
 - I wrote the code in C++ and used OpenMP for CPU parallelization.
 
 The code is here! [repository](https://github.com/Hyun-kingofBH/TheLordofthePhotonRings).
