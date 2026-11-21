@@ -5,7 +5,7 @@ permalink: /research/
 description: Click and see what I have been working on!
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [work]
 horizontal: false
 ---
 
@@ -17,8 +17,9 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  {% assign categorized_projects = site.projects | where: "category", category | where: "show_on_research", true %}
+  {% assign visible_projects = site.projects | where: "show_on_research", true %}
+  {% assign sorted_projects = visible_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
   <div class="container">
