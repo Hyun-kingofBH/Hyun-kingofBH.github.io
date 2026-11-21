@@ -2,7 +2,7 @@
 layout: page
 title: "AGN Activity vs. SFR of the Host Galaxy: Type 1 AGN at 0.3 < z < 0.8"
 description: "Studying the relationship between AGN activity and host galaxy star formation."
-img:assets/img/AGN_feedback/coevo_thumbnail.jpg
+img: assets/img/AGN_feedback/coevo_thumbnail.jpg
 importance: 4
 category: work
 ---
