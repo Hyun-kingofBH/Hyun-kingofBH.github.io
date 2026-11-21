@@ -5,6 +5,7 @@ description: "An educational ray tracer for null geodesics and black hole images
 img: assets/img/research/PhotonRing.png
 importance: 1
 category: work
+show_on_research: true
 ---
 
 I developed a parallelized C++ ray-tracing code under the Schwarzschild and Kerr spacetime. These are the sample images obtained by my code.
