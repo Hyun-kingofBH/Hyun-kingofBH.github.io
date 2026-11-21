@@ -24,11 +24,11 @@ cv:
           - "Selected coursework: General Relativity (A), Cosmology (A), Astrophysics (A)"
           - "Exchange semester followed by a summer research assistantship."
 
-  Publications:
+    Publications:
       - bullet: Song, H., Jeon, J., Taylor, A., & Bromm, V. “Observing the First Supermassive Black Holes with JWST.” In preparation.
       - bullet: Song, H., Zier, O., Shen, X., Riu, R., et al. “Evolution of Massive Black Holes and the Formation of Multiple MBH Systems during Hierarchical Galaxy Assembly in the LUMINA Simulation.” In preparation.
 
-   Research Experience:
+    Research Experience:
       - company: Seoul National University
         position: Student Directed Research Project, Ray Tracing Framework for Schwarzschild and Kerr Metrics
         date: Jun. 2026–present
@@ -105,7 +105,7 @@ cv:
       - name: Seoul National University Open Astronomy Nights
         date: May and Sep. 2026
 
-    Teaching and Academic Service:
+   Teaching and Academic Service:
       - company: Korea Astronomy Olympiad, Korean Astronomical Society
         position: Instructor and Teaching Assistant for National Team Training
         date: Apr. 2026–present
