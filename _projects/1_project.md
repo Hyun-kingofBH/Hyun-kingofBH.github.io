@@ -56,3 +56,15 @@ I wrote the proposal independently and secured an approximately $2,000 research 
 - I wrote the code in C++ and used OpenMP for CPU parallelization.
 
 The code is here! [repository](https://github.com/Hyun-kingofBH/TheLordofthePhotonRings).
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-10 mt-3 mt-md-0">
+    <img src="{{ '/assets/img/research/tshirt.jpg' | relative_url }}"
+         alt="Hyun and friends wearing T-shirts printed with a ray-traced black hole image"
+         class="img-fluid rounded z-depth-1"
+         loading="lazy">
+  </div>
+</div>
+<div class="caption">
+  I printed a ray-traced image of a Schwarzschild black hole viewed at an inclination of 10° on T-shirts for a graduation photo with my wonderful friends at SNU in October 2026! Pictured with Jiseop Shin, I, Jong-In Park, and Yeongpyo Hong (left to right).
+</div>
