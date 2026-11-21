@@ -1,189 +1,172 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Hyun Song
+  label: B.S. Candidate in Physics and Astronomy
+  email: thdgus0911@gmail.com
+  location: Seoul, Republic of Korea
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  summary: >-
+    I am interested in modeling extreme phenomena near black holes, including relativistic accretion flows, jets, and black hole inspirals involving companions across a broad range of mass ratios. I hope to connect these models to electromagnetic and gravitational wave signals, as well as population level observables.
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Seoul National University
+        area: Physics and Astronomy
+        degree: B.S. Candidate, double major
+        date: 2020–Feb. 2027, expected
+        location: Seoul, Republic of Korea
         highlights:
-          - Description 1.
-          - Description 2.
+          - Two year leave of absence for mandatory service in the Republic of Korea Marine Corps, 2021–2022
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Texas at Austin
+        area: Astronomy
+        degree: Exchange Program
+        date: Jan. 2025–Aug. 2025
+        location: Austin, Texas
+        summary: Exchange semester followed by a summer research assistantship.
         highlights:
-          - Description 1.
-          - Description 2.
-
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Selected coursework: General Relativity (A), Cosmology (A), Astrophysics (A)
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - bullet: Song, H., Jeon, J., Taylor, A., & Bromm, V. “Observing the First Supermassive Black Holes with JWST.” In preparation.
+      - bullet: Song, H., Zier, O., Shen, X., Riu, R., et al. “Evolution of Massive Black Holes and the Formation of Multiple MBH Systems during Hierarchical Galaxy Assembly in the LUMINA Simulation.” In preparation.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    Research Experience:
+      - company: Seoul National University
+        position: Student Directed Research Project, Ray Tracing Framework for Schwarzschild and Kerr Metrics
+        date: Jun. 2026–present
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Secured approximately $2,000 in funding for a project I proposed.
+          - Implemented a parallelized C++ Hamiltonian solver for photon geodesics in Kerr spacetime.
+          - Extended the solver to ray trace thin Keplerian disks and generate relativistic images.
+          - Developed a hands on teaching tool to explore how light bending, Doppler shifts, and gravitational redshift shape disk images.
+          - Advisor: Sascha Trippe
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - company: Center for Astrophysics | Harvard & Smithsonian and MIT
+        position: Self Initiated Research Project, Multiple Massive Black Holes in the LUMINA Cosmological Simulation
+        date: Feb. 2026–present
+        highlights:
+          - Connected LUMINA cosmological merger histories with Holodeck binary evolution models to extend dual AGN forecasts to $z=6.6$ and assess LISA detectability.
+          - Translated these forecasts into survey requirements, estimating that a survey of approximately $300\,\mathrm{arcmin}^2$ at $3<z\lesssim6$ could detect at least 10 potential dual AGNs with greater than 90% probability.
+          - Studied the potential importance of MBH triplets for SMBH growth and demographics, estimating that approximately 20% of galaxies undergoing multiple mergers may temporarily host one.
+          - Advisors: Oliver Zier, LUMINA PI; Jacob Shen
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - company: University of Texas at Austin
+        position: Research Assistant, JWST Observability of SMBHs Across Seeding and Growth Scenarios
+        date: Feb. 2025–Feb. 2026
+        highlights:
+          - Integrated SMBH seeding and growth prescriptions to evaluate their photometric detectability with JWST.
+          - Evaluated high ionization line diagnostics using mock spectra where Balmer lines are inaccessible.
+          - Projected that JWST could detect and identify SMBHs out to $z\sim16$ under optimistic assumptions.
+          - Advisor: Volker Bromm
+
+      - company: Seoul National University
+        position: Undergraduate Research Intern, AGN Activity and Star Formation: SED Analysis of Type 1 AGNs
+        date: Dec. 2023–Dec. 2024
+        highlights:
+          - Estimated SFRs of Type 1 AGN host galaxies by fitting their multiwavelength SEDs with CIGALE, using SDSS spectra and catalog photometry.
+          - Tested how missing FIR data affected SFR estimates by comparing fits with and without FIR photometry, extending the analysis to hosts without FIR measurements.
+          - Found a weak positive correlation between AGN activity and host galaxy SFR, with no evidence of SFR suppression in the sample.
+          - Advisor: Jong-Hak Woo
+
+    Selected Scientific Talks:
+      - name: SMBH and Blue Notes Conference
+        date: Jun. 2026
+        location: Montreal, Canada
+
+      - name: Professor Hernquist’s Group Meeting, Center for Astrophysics | Harvard & Smithsonian
+        date: Feb. 2026
+        location: Boston, Massachusetts
+
+      - name: Korean Astronomical Society Fall Meeting
+        date: Oct. 2025
+        location: Jeju, Republic of Korea
+
+      - name: U.S.–Korea Conference
+        date: Aug. 2025
+        location: Atlanta, Georgia
+
+    Selected Posters:
+      - name: Numerical Relativity and Gravitational Wave Summer School
+        date: Jul. 2026
+        location: Daejeon, Republic of Korea
+
+      - name: Cosmic Frontier Center Conference
+        date: May 2025
+        location: Austin, Texas
+
+      - name: Korean Space Science Society Fall Meeting
+        date: Oct. 2024
+        location: Sacheon, Republic of Korea
+        highlights:
+          - Outstanding Presentation Award
+
+    Selected Outreach Talks:
+      - name: Seongdong High School Career Mentoring Event
+        date: Oct. 2026
+
+      - name: Seoul National University Open Astronomy Nights
+        date: May and Sep. 2026
+
+    Teaching and Academic Service:
+      - company: Korea Astronomy Olympiad, Korean Astronomical Society
+        position: Instructor and Teaching Assistant for National Team Training
+        date: Apr. 2026–present
+        highlights:
+          - Train the Korean national team for the International Olympiad on Astronomy and Astrophysics.
+          - Develop theoretical and data analysis problems, including four long form problems for four hour sessions and three medium length problems designed for 10–30 minutes each.
+          - Organized two national team training camps, coordinating schedules and instruction.
+
+      - company: Seoul National University and Korea Advanced Institute of Science and Technology
+        position: Core Member, Astronomy Student Led Journal Club
+        date: Sep. 2025–present
+        highlights:
+          - Co lead a weekly journal club for two undergraduate and five graduate students.
+          - Presented in depth 1.5 hour reviews and led discussions of seven research papers.
+
+      - company: Seoul National University
+        position: Peer Tutor, Calculus I and General Physics I–II
+        date: 2024–2026, four semesters
+        highlights:
+          - Led 2.5 hours per week of supplemental lectures and problem solving sessions for groups of two to six undergraduates each semester.
+          - Provided bilingual tutoring to a student with prior education abroad in General Physics I in 2026.
+          - Received Best Tutor awards in Calculus I and General Physics I in Spring 2026.
+
+      - company: Korean Mathematical Society and Korean Astronomical Society
+        position: Mentor, Career Mentoring Program Led by Former National Olympiad Representatives
+        date: 2023
+        highlights:
+          - Guided three high school students from rural areas in an exoplanet analysis project using Kepler transit data.
+          - Delivered five one hour introductory astronomy lectures.
+          - Led the team to First Prize in the Astronomy Division.
+
+      - company: Seoul National University Social Responsibility
+        position: Volunteer and Camp Organizer, SHANUM Community Service
+        date: 2023
+        highlights:
+          - Contributed more than 100 volunteer hours to programs serving migrant youth, children, and workers.
+          - Organized educational camps and community festival booths for youth from migrant backgrounds.
+
+    Honors and Funding:
+      - name: Presidential Science Scholarship
+        date: 2020–2025
+        summary: Ministry of Science and ICT, Republic of Korea
+        highlights:
+          - Full tuition and an annual academic stipend of approximately $3,800 for four academic years.
+
+      - name: KorUS Educational Exchange Initiative for Youth in STEM
+        date: 2025
+        summary: Ministry of Trade, Industry and Energy, Republic of Korea; Korea Institute for Advancement of Technology
+        highlights:
+          - Selected for an approximately $8,000 scholarship supporting STEM exchange study.
+
+      - name: Student Directed Education: Research Support Program
+        date: Jun. 2026–present
+        summary: Seoul National University
+        highlights:
+          - Independent research proposal selected for approximately $2,000 in funding.
+
+      - name: National Representative, Asian Pacific Astronomy Olympiad
+        date: 2019
+        summary: Korea Astronomy Olympiad
+        highlights:
+          - Selected as one of 11 students nationwide through a year long training and selection process.
