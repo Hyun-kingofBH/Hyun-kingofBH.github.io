@@ -60,7 +60,7 @@ cv:
           - Advisor: Volker Bromm
 
       - company: Seoul National University
-        position: Undergraduate Research Intern, AGN Activity and Star Formation: SED Analysis of Type 1 AGNs
+        position: "Undergraduate Research Intern, AGN Activity and Star Formation: SED Analysis of Type 1 AGNs"
         date: Dec. 2023–Dec. 2024
         highlights:
           - Estimated SFRs of Type 1 AGN host galaxies by fitting their multiwavelength SEDs with CIGALE, using SDSS spectra and catalog photometry.
