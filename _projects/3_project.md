@@ -36,7 +36,7 @@ I traced SMBH growth under different seed and accretion histories. I then applie
 
 Photometric detectability alone cannot confirm an AGN, so I also examined whether spectral features could provide an AGN signature. At $z>10$, H$\alpha$ and H$\beta$ shift beyond NIRSpec’s wavelength range. MIRI reaches longer wavelengths, but its sensitivity limits these lines for sources in the scenarios we modeled. I therefore examined high ionization lines such as $\mathrm{N\,V}\,\lambda1240$ as potential indirect AGN signatures.
 
-Under our optimistic growth scenarios and adopted sensitivity assumptions, our estimates suggest that JWST may detect and identify SMBHs out to $z\sim16$, potentially probing them closer to their origin. We are preparing the paper for submission.
+Under our optimistic growth scenarios and adopted sensitivity assumptions, our estimates suggest that JWST may detect and identify SMBHs out to $z\sim16$, potentially probing them closer to their origin. Our paper is submitted to the Astrophysical Journal in November 2026!
 
 <div class="caption">
   Thumbnail image: Illustration by NASA, ESA, CSA, and Ralf Crawford (STScI). See the
