@@ -71,5 +71,5 @@ The code is here! [repository](https://github.com/Hyun-kingofBH/TheLordofthePhot
   </div>
 </div>
 <div class="caption">
-  I printed a ray-traced image of a Schwarzschild black hole viewed at an inclination of 10° on T-shirts for a graduation photo with my fantastic friends at SNU Astronomy in October 2026! Pictured with Jiseop Shin, Hyun Song (me), Jong-In Park, and <a href="https://hongyp007.github.io/" target="_blank" rel="noopener">YoungPyo Hong</a> (left to right).
+  I printed a ray-traced image of a Schwarzschild black hole viewed at an inclination of 10° on T-shirts for a graduation photo with my fantastic friends at SNU Astronomy in October 2026! Pictured with Jiseop Shin, Hyun Song (me), <a href="https://jonginpark.netlify.app/" target="_blank" rel="noopener">Jong-In Park</a>, and <a href="https://hongyp007.github.io/" target="_blank" rel="noopener">YoungPyo Hong</a> (left to right).
 </div>
