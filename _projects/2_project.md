@@ -11,7 +11,7 @@ category: work
 show_on_research: true
 ---
 
-Since February 2026, I have been studying the populations of potential dual AGN and massive black hole (MBH) pairs detectable by LISA at high redshift ($3 \gtrsim z \lesssim 7$). Using LUMINA’s large volume, I also extended the analysis beyond binaries to study higher-order systems including MBH triplets. I work with Dr. Oliver Zier, PI of the LUMINA simulation, and Dr. Jacob Shen at the Harvard Center for Astrophysics.
+Since February 2026, I have been studying the populations of potential dual AGN and massive black hole (MBH) pairs detectable by LISA at high redshift ($3 \lesssim z \lesssim 7$). Using LUMINA’s large volume, I also extended the analysis beyond binaries to study higher-order systems including MBH triplets. I work with Dr. Oliver Zier, PI of the LUMINA simulation, and Dr. Jacob Shen at the Harvard Center for Astrophysics.
 
 Galaxy mergers are common over a galaxy's lifetime, and most massive galaxies are thought to host an MBH at their center. What happens to these central MBHs when their host galaxies merge? Do they eventually merge to form a larger MBH, or can they persist as a binary for a long time? These questions have long interested me.
 
