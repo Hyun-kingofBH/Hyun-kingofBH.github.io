@@ -10,10 +10,16 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
+  # NOTE: a link to another website must start with "https://". Without it the browser treats
+  # the text as a file inside this site (e.g. href="Hyun-kingofBH.github.io" pointed to a
+  # non-existent page), and the "Check for broken links on site" workflow fails on every push.
+  # The Google Scholar line below is disabled with an HTML comment (<!-- ... -->) until the
+  # profile exists: replace YOUR_ID with the value after "user=" in your Scholar profile URL,
+  # then delete the "<!--" and "-->" markers to show the link again.
   more_info: >
     <p>Seoul National University</p>
     <p><a href="mailto:thdgus0911@gmail.com">Email</a></p>
-    <p><a href="Hyun-kingofBH.github.io">Google Scholar</a></p>
+    <!-- <p><a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" rel="noopener">Google Scholar</a></p> -->
 
 selected_papers: false
 social: true
