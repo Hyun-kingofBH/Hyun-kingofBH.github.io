@@ -1,11 +1,13 @@
 ---
 layout: page
 title: "How Far Can JWST Observe SMBHs?"
-description: "Estimating how far JWST can detect and identify growing SMBHs."
+# "description" is the small text under the title on the /research/ card. It is also shown
+# under the title at the top of this project page and used as the page summary for search engines.
+description: "Can JWST observe more distant SMBHs beyond our current empirical horizon? Can light and heavy seed origins be distinguished at our horizon?"
 # All images and PDFs of this project live in ONE folder: assets/img/projects/3_project/
 # (same name as this file). To add a file, put it in that folder and refer to it as
 # assets/img/projects/3_project/FILE_NAME. "img" below is the card thumbnail on /research/.
-img: assets/img/projects/3_project/SMBH_thumbnail.png
+img: assets/img/projects/3_project/SMBH_thumbnail.jpg
 importance: 3
 category: work
 show_on_research: true
@@ -42,8 +44,9 @@ Photometric detectability alone cannot confirm an AGN, so I also examined whethe
 Under our optimistic growth scenarios and adopted sensitivity assumptions, our estimates suggest that JWST may detect and identify SMBHs out to $z\sim16$, potentially probing them closer to their origin. Our paper is submitted to the Astrophysical Journal in November 2026!
 
 <div class="caption">
-  Thumbnail image: Illustration by NASA, ESA, CSA, and Ralf Crawford (STScI). See the
-  <a href="https://science.nasa.gov/asset/webb/flaring-disk-around-milky-ways-black-hole-artists-concept/"
+  Thumbnail image: "Prehistoric Black Hole (Artist's Concept)" by NASA/JPL-Caltech (PIA12966),
+  cropped to a square. See the
+  <a href="https://science.nasa.gov/photojournal/prehistoric-black-hole-artists-concept/"
      target="_blank"
      rel="noopener">NASA image page</a>.
 </div>
