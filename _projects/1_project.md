@@ -1,7 +1,9 @@
 ---
 layout: page
 title: "A Pedagogical Ray Tracer for Black Hole Imaging"
-description: "An educational ray tracer for null geodesics and black hole images in Schwarzschild and Kerr spacetimes."
+# "description" is the small text under the title on the /research/ card. It is also shown
+# under the title at the top of this project page and used as the page summary for search engines.
+description: "How does strong gravity around black holes curve the trajectory of light? How do the geodesic equations we learn in General Relativity class get integrated and shape astrophysical images?"
 # All images and PDFs of this project live in ONE folder: assets/img/projects/1_project/
 # (same name as this file). To add a file, put it in that folder and refer to it as
 # assets/img/projects/1_project/FILE_NAME. "img" below is the card thumbnail on /research/.

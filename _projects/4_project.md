@@ -1,7 +1,9 @@
 ---
 layout: page
 title: "AGN Activity vs. SFR of the Host Galaxy: Type 1 AGN at 0.3 < z < 0.8"
-description: "Studying the relationship between AGN activity and host galaxy star formation."
+# "description" is the small text under the title on the /research/ card. It is also shown
+# under the title at the top of this project page and used as the page summary for search engines.
+description: "What came first, galaxies? Or AGNs? How does AGN activity affect its host galaxies?"
 # All images and PDFs of this project live in ONE folder: assets/img/projects/4_project/
 # (same name as this file). To add a file, put it in that folder and refer to it as
 # assets/img/projects/4_project/FILE_NAME. "img" below is the card thumbnail on /research/.

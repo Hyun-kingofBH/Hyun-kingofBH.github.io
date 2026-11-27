@@ -1,7 +1,9 @@
 ---
 layout: page
 title: "Multiple Massive Black Hole Systems in the LUMINA"
-description: "Modeling high-redshift MBH binaries, potential dual AGN, and triplets in the LUMINA cosmological simulation."
+# "description" is the small text under the title on the /research/ card. It is also shown
+# under the title at the top of this project page and used as the page summary for search engines.
+description: "How many dual AGN are out there? Can delays due to MBH inspirals allow a galaxy to host higher order systems, like triplets or quadruple systems?"
 # All images and PDFs of this project live in ONE folder: assets/img/projects/2_project/
 # (same name as this file). To add a file, put it in that folder and refer to it as
 # assets/img/projects/2_project/FILE_NAME. "img" below is the card thumbnail on /research/.
