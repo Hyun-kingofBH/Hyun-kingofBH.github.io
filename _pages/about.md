@@ -24,10 +24,14 @@ profile:
 selected_papers: false
 social: true
 
+# NOTE (news on this page): "enabled: true" shows a "news" list under the introduction.
+# Each item is one file in the _news/ folder (see the comments in the file there).
+# "limit" is how many of the newest items appear here; the full list is at /news/.
+# "scrollable: true" turns the list into a scroll box once there are more than 3 items.
 announcements:
-  enabled: false
+  enabled: true
   scrollable: true
-  limit: 2
+  limit: 5
 
 latest_posts:
   enabled: false
@@ -61,12 +65,18 @@ latest_posts:
 }
 </style>
 
+<!-- NOTE: <strong>text</strong> makes text bold (the HTML counterpart of LaTeX \textbf{text}). -->
 <div class="about-bio">
   <p>
     I am an undergraduate student in physics and astronomy at Seoul National University.
-    I am interested in theoretical models of extreme phenomena near black holes,
-    including relativistic accretion flows and black hole inspirals across a broad
-    range of mass ratios. I hope to connect these models to observable electromagnetic
-    and gravitational wave signatures.
+    I am interested in <strong>modeling extreme phenomena near black holes</strong>, such as
+    relativistic accretion flows and black hole inspirals involving companions across a broad
+    range of mass ratios. I am particularly interested in
+    <strong>connecting these models to observational signatures</strong>, including
+    electromagnetic and gravitational wave signals as well as population-level observables.
+    Through this work, I aim to predict observable features of these phenomena or help interpret
+    observations to constrain the underlying physics. By providing a firm physical foundation for
+    understanding small-scale interactions, I ultimately hope to advance our understanding of how
+    SMBHs have helped shape the present-day Universe.
   </p>
 </div>
