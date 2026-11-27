@@ -5,9 +5,37 @@ cv:
   location: "Seoul, Republic of Korea"
 
   sections:
+    # NOTE (how this page is drawn): the CV page is generated from this file by the al_folio_cv
+    # plugin. In a section whose name the plugin does not know (all sections below except
+    # "Education"), each entry can be written in one of two ways:
+    #   - label: + details:   prints  <strong>label:</strong> details   (the colon is added for you)
+    #   - bullet:             prints the text exactly as written, with no label and no colon
+    # "bullet" is used wherever the layout is written by hand in HTML. Two rules for bullet text:
+    #   1. If it contains HTML, wrap everything in one outer <div> ... </div>.
+    #   2. Do not use <p> inside it (the plugin strips <p> tags); use <div> instead.
+    #
+    # NOTE (page styles): the first entry below also carries a <style> block. It is the ONE place
+    # that defines how the hand-written entries look; the entries only refer to these names with
+    # class='...'. Change a number here and every entry using that class changes.
+    # ("bullet: |" starts a multi-line text block: everything indented under it belongs to it.)
     "Research Interests":
-      - label: "Black hole physics"
-        details: "<div class='mt-2 mb-4'><ul><li>I am interested in modeling extreme phenomena near black holes, including relativistic accretion flows and black hole inspirals.</li></ul></div>"
+      - bullet: |
+          <div>
+          <style>
+            /* The plugin draws a dot in front of every "bullet" entry; hide it and its indent. */
+            .cv ul.list-group { padding-left: 0; }
+            .cv li.list-group-item { list-style: none; }
+            /* Lists written inside an entry (ul / li tags) keep a normal filled dot. */
+            .cv li.list-group-item ul { list-style-type: disc; }
+            /* cv-title: the large project title in "Research Experience" (1rem = normal text). */
+            .cv-title { font-size: 1.25rem; font-weight: bold; line-height: 1.3; margin-bottom: 0.25rem; }
+            /* cv-row: one line with the event on the left and cv-when (date, place) on the right.
+               On a narrow screen cv-when drops to the next line, still right-aligned. */
+            .cv-row { display: flex; flex-wrap: wrap; column-gap: 1rem; }
+            .cv-when { margin-left: auto; white-space: nowrap; }
+          </style>
+          I am interested in theoretical models of extreme phenomena near black holes, including relativistic accretion flows and black hole inspirals across a broad range of mass ratios. I hope to connect these models to observable electromagnetic and gravitational wave signatures.
+          </div>
 
     "Education":
       - institution: "Seoul National University"
@@ -33,53 +61,50 @@ cv:
       - label: "Evolution of Massive Black Holes and the Formation of Multiple MBH Systems during Hierarchical Galaxy Assembly in the LUMINA Simulation"
         details: "<div class='mt-2 mb-4'><p>Song, H., Zier, O., Shen, X., Riu, R., et al.</p><p>In preparation.</p></div>"
 
+    # NOTE (research entries): each entry is one "bullet" made of stacked <div> lines:
+    #   <div class='cv-title'>  project title, shown large (size is set in the <style> block above)
+    #   then: role, institution  /  period  /  advisor  (class='mb-1' adds a small gap below a line)
+    #   then a <ul><li>...</li></ul> list of what I did.
+    # The outer <div class='mb-4'> adds a larger gap below the whole entry.
+    # To add a project, copy one whole "- bullet:" line and edit the text.
     "Research Experience":
-      - label: "Student Directed Research Project, Ray Tracing Framework for Schwarzschild and Kerr Metrics"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>Seoul National University</p><p class='mb-1'>Jun. 2026–present</p><p>Advisor: Sascha Trippe</p><ul><li>Secured approximately $2,000 in funding for a project I proposed.</li><li>Implemented a parallelized C++ Hamiltonian solver for photon geodesics in Kerr spacetime.</li><li>Extended the solver to ray trace thin Keplerian disks and generate relativistic images.</li><li>Developed a hands-on teaching tool to explore how light bending, Doppler shifts, and gravitational redshift shape disk images.</li></ul></div>"
+      - bullet: "<div class='mb-4'><div class='cv-title'>Ray Tracing Framework for Schwarzschild and Kerr Metrics</div><div class='mb-1'>Student Directed Research Project, Seoul National University</div><div class='mb-1'>Jun. 2026–present</div><div>Advisor: Sascha Trippe</div><ul><li>Secured approximately $2,000 in funding for a project I proposed.</li><li>Implemented a parallelized C++ Hamiltonian solver for photon geodesics in Kerr spacetime.</li><li>Extended the solver to ray trace thin Keplerian disks and generate relativistic images.</li><li>Developed a hands-on teaching tool to explore how light bending, Doppler shifts, and gravitational redshift shape disk images.</li></ul></div>"
 
       # NOTE (math in this file): every value here is a double-quoted YAML string, and inside
       # double quotes a backslash starts an escape sequence. A LaTeX command such as \lesssim
       # must therefore be written with TWO backslashes (\\lesssim); a single one makes the
       # whole file invalid YAML and the site build fails. Also write "<" as &lt; because the
       # text is HTML. MathJax still receives $3 < z \lesssim 6$ and typesets it.
-      - label: "Self-Initiated Research Project, Multiple Massive Black Holes in the LUMINA Cosmological Simulation"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>Center for Astrophysics | Harvard &amp; Smithsonian and MIT</p><p class='mb-1'>Feb. 2026–present</p><p>Advisors: Oliver Zier, LUMINA PI; Jacob Shen</p><ul><li>Connected LUMINA cosmological merger histories with Holodeck binary evolution models to extend dual AGN forecasts to z = 6.6 and assess LISA detectability.</li><li>Translated these forecasts into survey requirements, estimating that a survey of approximately 300 arcmin² at $3 &lt; z \\lesssim 6$ could detect at least 10 potential dual AGNs with greater than 90% probability.</li><li>Studied the potential importance of MBH triplets for SMBH growth and demographics, estimating that approximately 20% of galaxies undergoing multiple mergers may temporarily host one.</li></ul></div>"
+      - bullet: "<div class='mb-4'><div class='cv-title'>Multiple Massive Black Holes in the LUMINA Cosmological Simulation</div><div class='mb-1'>Self-Initiated Research Project, Center for Astrophysics | Harvard &amp; Smithsonian and MIT</div><div class='mb-1'>Feb. 2026–present</div><div>Advisors: Oliver Zier, LUMINA PI; Jacob Shen</div><ul><li>Connected LUMINA cosmological merger histories with Holodeck binary evolution models to extend dual AGN forecasts to z = 6.6 and assess LISA detectability.</li><li>Translated these forecasts into survey requirements, estimating that a survey of approximately 300 arcmin² at $3 &lt; z \\lesssim 6$ could detect at least 10 potential dual AGNs with greater than 90% probability.</li><li>Studied the potential importance of MBH triplets for SMBH growth and demographics, estimating that approximately 20% of galaxies undergoing multiple mergers may temporarily host one.</li></ul></div>"
 
-      - label: "Research Assistant, JWST Observability of SMBHs Across Seeding and Growth Scenarios"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>University of Texas at Austin</p><p class='mb-1'>Feb. 2025–Feb. 2026</p><p>Advisor: Volker Bromm</p><ul><li>Integrated SMBH seeding and growth prescriptions to evaluate their photometric detectability with JWST.</li><li>Evaluated high-ionization line diagnostics using mock spectra where Balmer lines are inaccessible.</li><li>Projected that JWST could detect and identify SMBHs out to z ∼ 16 under optimistic assumptions.</li></ul></div>"
+      - bullet: "<div class='mb-4'><div class='cv-title'>JWST Observability of SMBHs Across Seeding and Growth Scenarios</div><div class='mb-1'>Research Assistant, University of Texas at Austin</div><div class='mb-1'>Feb. 2025–Feb. 2026</div><div>Advisor: Volker Bromm</div><ul><li>Integrated SMBH seeding and growth prescriptions to evaluate their photometric detectability with JWST.</li><li>Evaluated high-ionization line diagnostics using mock spectra where Balmer lines are inaccessible.</li><li>Projected that JWST could detect and identify SMBHs out to z ∼ 16 under optimistic assumptions.</li></ul></div>"
 
-      - label: "Undergraduate Research Intern, AGN Activity and Star Formation: SED Analysis of Type 1 AGNs"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>Seoul National University</p><p class='mb-1'>Dec. 2023–Dec. 2024</p><p>Advisor: Jong-Hak Woo</p><ul><li>Estimated SFRs of Type 1 AGN host galaxies by fitting their multiwavelength SEDs with CIGALE, using SDSS spectra and catalog photometry.</li><li>Tested how missing FIR data affected SFR estimates by comparing fits with and without FIR photometry, extending the analysis to hosts without FIR measurements.</li><li>Found a weak positive correlation between AGN activity and host galaxy SFR, with no evidence of SFR suppression in the sample.</li></ul></div>"
+      - bullet: "<div class='mb-4'><div class='cv-title'>AGN Activity and Star Formation: SED Analysis of Type 1 AGNs</div><div class='mb-1'>Undergraduate Research Intern, Seoul National University</div><div class='mb-1'>Dec. 2023–Dec. 2024</div><div>Advisor: Jong-Hak Woo</div><ul><li>Estimated SFRs of Type 1 AGN host galaxies by fitting their multiwavelength SEDs with CIGALE, using SDSS spectra and catalog photometry.</li><li>Tested how missing FIR data affected SFR estimates by comparing fits with and without FIR photometry, extending the analysis to hosts without FIR measurements.</li><li>Found a weak positive correlation between AGN activity and host galaxy SFR, with no evidence of SFR suppression in the sample.</li></ul></div>"
 
+    # NOTE (talks and posters): each entry is one row,
+    #   <div class='cv-row'> <strong>EVENT</strong> <span class='cv-when'>DATE, PLACE</span> </div>
+    # with the event on the left and the date/place on the right (see the <style> block above).
+    # To add one, copy a "- bullet:" line and change the event name and the date/place.
     "Selected Scientific Talks":
-      - label: "SMBH and Blue Notes Conference"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>Montreal, Canada</p><p>Jun. 2026</p></div>"
+      - bullet: "<div class='cv-row'><strong>SMBH and Blue Notes Conference</strong><span class='cv-when'>Jun. 2026, Montreal, Canada</span></div>"
 
-      - label: "Professor Hernquist’s Group Meeting"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>Center for Astrophysics | Harvard &amp; Smithsonian</p><p class='mb-1'>Boston, Massachusetts</p><p>Feb. 2026</p></div>"
+      - bullet: "<div class='cv-row'><strong>Professor Hernquist’s Group Meeting, Center for Astrophysics | Harvard &amp; Smithsonian</strong><span class='cv-when'>Feb. 2026, Boston, Massachusetts</span></div>"
 
-      - label: "Korean Astronomical Society Fall Meeting"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>Jeju, Republic of Korea</p><p>Oct. 2025</p></div>"
+      - bullet: "<div class='cv-row'><strong>Korean Astronomical Society Fall Meeting</strong><span class='cv-when'>Oct. 2025, Jeju, Republic of Korea</span></div>"
 
-      - label: "U.S.–Korea Conference"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>Atlanta, Georgia</p><p>Aug. 2025</p></div>"
+      - bullet: "<div class='cv-row'><strong>U.S.–Korea Conference</strong><span class='cv-when'>Aug. 2025, Atlanta, Georgia</span></div>"
 
     "Selected Posters":
-      - label: "Numerical Relativity and Gravitational Wave Summer School"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>Daejeon, Republic of Korea</p><p>Jul. 2026</p></div>"
+      - bullet: "<div class='cv-row'><strong>Numerical Relativity and Gravitational Wave Summer School</strong><span class='cv-when'>Jul. 2026, Daejeon, Republic of Korea</span></div>"
 
-      - label: "Cosmic Frontier Center Conference"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>Austin, Texas</p><p>May 2025</p></div>"
+      - bullet: "<div class='cv-row'><strong>Cosmic Frontier Center Conference</strong><span class='cv-when'>May 2025, Austin, Texas</span></div>"
 
-      - label: "Korean Space Science Society Fall Meeting"
-        details: "<div class='mt-2 mb-4'><p class='mb-1'>Sacheon, Republic of Korea</p><p>Oct. 2024</p><ul><li>Outstanding Presentation Award</li></ul></div>"
+      - bullet: "<div class='cv-row'><span><strong>Korean Space Science Society Fall Meeting</strong> (Outstanding Presentation Award)</span><span class='cv-when'>Oct. 2024, Sacheon, Republic of Korea</span></div>"
 
     "Selected Outreach Talks":
-      - label: "Seongdong High School Career Mentoring Event"
-        details: "<div class='mt-2 mb-4'><p>Oct. 2026</p></div>"
+      - bullet: "<div class='cv-row'><strong>Seongdong High School Career Mentoring Event</strong><span class='cv-when'>Oct. 2026</span></div>"
 
-      - label: "Seoul National University Open Astronomy Nights"
-        details: "<div class='mt-2 mb-4'><p>May and Sep. 2026</p></div>"
+      - bullet: "<div class='cv-row'><strong>Seoul National University Open Astronomy Nights</strong><span class='cv-when'>May and Sep. 2026</span></div>"
 
     "Teaching and Academic Service":
       - label: "Instructor and Teaching Assistant for National Team Training"
