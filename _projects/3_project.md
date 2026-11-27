@@ -2,7 +2,10 @@
 layout: page
 title: "How Far Can JWST Observe SMBHs?"
 description: "Estimating how far JWST can detect and identify growing SMBHs."
-img: assets/img/SMBH_JWST/SMBH_thumbnail.png
+# All images and PDFs of this project live in ONE folder: assets/img/projects/3_project/
+# (same name as this file). To add a file, put it in that folder and refer to it as
+# assets/img/projects/3_project/FILE_NAME. "img" below is the card thumbnail on /research/.
+img: assets/img/projects/3_project/SMBH_thumbnail.png
 importance: 3
 category: work
 show_on_research: true
@@ -23,7 +26,7 @@ I traced SMBH growth under different seed and accretion histories. I then applie
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include figure.liquid
-       path="assets/img/SMBH_JWST/LS_sup_timeax.png"
+       path="assets/img/projects/3_project/LS_sup_timeax.png"
        title="Example of SMBH growth from a light seed"
        class="img-fluid rounded z-depth-1" %}
   </div>

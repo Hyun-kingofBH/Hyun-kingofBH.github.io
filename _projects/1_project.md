@@ -2,7 +2,10 @@
 layout: page
 title: "A Pedagogical Ray Tracer for Black Hole Imaging"
 description: "An educational ray tracer for null geodesics and black hole images in Schwarzschild and Kerr spacetimes."
-img: assets/img/research/PhotonRing.png
+# All images and PDFs of this project live in ONE folder: assets/img/projects/1_project/
+# (same name as this file). To add a file, put it in that folder and refer to it as
+# assets/img/projects/1_project/FILE_NAME. "img" below is the card thumbnail on /research/.
+img: assets/img/projects/1_project/PhotonRing.png
 importance: 1
 category: work
 show_on_research: true
@@ -12,7 +15,7 @@ I developed a parallelized C++ ray-tracing code under the Schwarzschild and Kerr
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/research/Sch_BH_disc_Iobs_movie.gif' | relative_url }}"
+    <img src="{{ '/assets/img/projects/1_project/Sch_BH_disc_Iobs_movie.gif' | relative_url }}"
          alt="Ray-traced views of a Schwarzschild black hole and its surrounding disk"
          class="img-fluid rounded z-depth-1"
          loading="lazy">
@@ -24,7 +27,7 @@ I developed a parallelized C++ ray-tracing code under the Schwarzschild and Kerr
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/research/BH_test_kerr_disc_Iobs_a10_movie.gif' | relative_url }}"
+    <img src="{{ '/assets/img/projects/1_project/BH_test_kerr_disc_Iobs_a10_movie.gif' | relative_url }}"
          alt="Ray-traced views of a Kerr black hole and its surrounding disk"
          class="img-fluid rounded z-depth-1"
          loading="lazy">
@@ -59,7 +62,7 @@ The code is here! [repository](https://github.com/Hyun-kingofBH/TheLordofthePhot
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/research/tshirt.jpg' | relative_url }}"
+    <img src="{{ '/assets/img/projects/1_project/tshirt.jpg' | relative_url }}"
          alt="Hyun and friends wearing T-shirts printed with a ray-traced black hole image"
          class="img-fluid rounded z-depth-1"
          loading="lazy">

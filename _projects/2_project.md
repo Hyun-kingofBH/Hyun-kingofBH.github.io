@@ -2,7 +2,10 @@
 layout: page
 title: "Multiple Massive Black Hole Systems in the LUMINA"
 description: "Modeling high-redshift MBH binaries, potential dual AGN, and triplets in the LUMINA cosmological simulation."
-img: assets/img/LUMINA/LUMINA_thumbnail.png
+# All images and PDFs of this project live in ONE folder: assets/img/projects/2_project/
+# (same name as this file). To add a file, put it in that folder and refer to it as
+# assets/img/projects/2_project/FILE_NAME. "img" below is the card thumbnail on /research/.
+img: assets/img/projects/2_project/LUMINA_thumbnail.png
 importance: 2
 category: work
 show_on_research: true
@@ -14,7 +17,7 @@ Galaxy mergers are common over a galaxy's lifetime, and most massive galaxies ar
 
 <div class="row">
   <div class="col-md-6 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/LUMINA/Bigblackhole.png' | relative_url }}"
+    <img src="{{ '/assets/img/projects/2_project/Bigblackhole.png' | relative_url }}"
          alt="Illustration of a massive black hole"
          class="img-fluid rounded z-depth-1"
          loading="lazy">
@@ -24,7 +27,7 @@ Galaxy mergers are common over a galaxy's lifetime, and most massive galaxies ar
   </div>
 
   <div class="col-md-6 mt-3 mt-md-0">
-    <img src="{{ '/assets/img/LUMINA/MBHB.png' | relative_url }}"
+    <img src="{{ '/assets/img/projects/2_project/MBHB.png' | relative_url }}"
          alt="Illustration of a massive black hole binary"
          class="img-fluid rounded z-depth-1"
          loading="lazy">
@@ -47,14 +50,14 @@ Galaxy mergers are common over a galaxy's lifetime, and most massive galaxies ar
 The poster below presents preliminary results that I shared at the 2026 Summer School of NR and GW in Daejeon, Korea. Some model parameters and the definition of an MBH triplet differ from our current analysis. We aim to submit the paper by January 2027 and will share the final results after submission.
 
 <p>
-  <a href="{{ '/assets/img/LUMINA/Hyun_NRGW2026.pdf' | relative_url }}"
+  <a href="{{ '/assets/img/projects/2_project/Hyun_NRGW2026.pdf' | relative_url }}"
      target="_blank"
      rel="noopener">
     Open the poster PDF in a new tab
   </a>
 </p>
 
-<iframe src="{{ '/assets/img/LUMINA/Hyun_NRGW2026.pdf' | relative_url }}"
+<iframe src="{{ '/assets/img/projects/2_project/Hyun_NRGW2026.pdf' | relative_url }}"
         title="Preliminary LUMINA research poster"
         style="width: 100%; height: 850px; border: 0;">
 </iframe>

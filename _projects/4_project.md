@@ -2,7 +2,10 @@
 layout: page
 title: "AGN Activity vs. SFR of the Host Galaxy: Type 1 AGN at 0.3 < z < 0.8"
 description: "Studying the relationship between AGN activity and host galaxy star formation."
-img: assets/img/AGN_feedback/coevo_thumbnail.jpg
+# All images and PDFs of this project live in ONE folder: assets/img/projects/4_project/
+# (same name as this file). To add a file, put it in that folder and refer to it as
+# assets/img/projects/4_project/FILE_NAME. "img" below is the card thumbnail on /research/.
+img: assets/img/projects/4_project/coevo_thumbnail.jpg
 importance: 4
 category: work
 show_on_research: true
@@ -15,7 +18,7 @@ For galaxies with classical bulges and elliptical galaxies, studies have found c
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include figure.liquid
-       path="assets/img/AGN_feedback/coevo_thumbnail.jpg"
+       path="assets/img/projects/4_project/coevo_thumbnail.jpg"
        title="Illustration of the coevolution of SMBHs and galaxies"
        class="img-fluid rounded z-depth-1" %}
   </div>
@@ -44,7 +47,7 @@ In this sample, I found no strong evidence that AGN activity immediately suppres
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
     {% include figure.liquid
-       path="assets/img/AGN_feedback/CIGALE.jpg"
+       path="assets/img/projects/4_project/CIGALE.jpg"
        title="CIGALE SED fits with and without FIR photometry"
        class="img-fluid rounded z-depth-1" %}
   </div>
@@ -60,7 +63,7 @@ In this sample, I found no strong evidence that AGN activity immediately suppres
 
 This is the poster I presented at the Korean Astronomical Society meeting in 2024.
 
-<a href="{{ '/assets/img/AGN_feedback/POSTER_FILE.pdf' | relative_url }}"
+<a href="{{ '/assets/img/projects/4_project/POSTER_FILE.pdf' | relative_url }}"
    target="_blank"
    rel="noopener">
   Open the poster PDF
